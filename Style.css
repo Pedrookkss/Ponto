@@ -1,0 +1,214 @@
+html{
+    background-image: url("https://images.wallpapersden.com/image/download/minimal-hd-landscape_bWhsZ2WUmZqaraWkpJRmaGtrrWxrbQ.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.all {
+    width: 380px;
+    height: 390px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    justify-content: space-evenly;
+    animation: backdrop-filter-animation 3s linear forwards;
+}
+
+@keyframes backdrop-filter-animation {
+    from {
+        backdrop-filter: blur(0px);
+    }
+
+    50% {
+        backdrop-filter: blur(15px);
+    }
+    to {
+        backdrop-filter: blur(30px);
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+}
+
+p {
+    border-right: solid 6px rgba(255,255,255,0);
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: "Roboto", sans-serif;  
+    color: rgba(255,255,255,.70);
+}
+
+
+p {	
+    animation: animated-text 3s linear 1s 1 normal both,
+    animated-cursor 600ms linear infinite;
+animation-delay: 3.5s;
+}
+
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 400px;}
+}
+
+@keyframes animated-cursor{
+    from{border-right-color: rgba(255,255,255,0);}
+    to{border-right-color: rgba(255,255,255,0);}
+}
+
+output{
+    color: white;
+}
+
+
+.all .datanhour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    animation: movingTopToBottom 3.5s linear forwards, 
+    fade-in 4s;
+    position: relative
+}
+
+@keyframes movingTopToBottom {
+    0% {
+        top: -75px;
+    }
+    100% {
+        top: 8px;
+    }
+}
+
+@keyframes fade-in {
+    0% { opacity: -1; }
+    15% { opacity: 0;}
+    100% { opacity: 1; }
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 3px;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+}
+
+.all .class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;	
+}
+
+.all .class button {
+    --bg: #05213f;
+    --hover-bg: #42bfa7;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    padding: 0.2em 1.2em;
+    background: var(--bg);
+    transition: 0.2s;
+    font-family: 'Roboto';
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+
+.all .class button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.all .class button:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+.all .class1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;	
+}
+
+.all .class1 button {
+    --bg: #05213f;
+    --hover-bg: #42bfa7;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    padding: 0.2em 1.2em;
+    background: var(--bg);
+    transition: 0.2s;
+    font-family: 'Roboto';
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+
+.all .class1 button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.all .class1 button:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+.all .class2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;	
+}
+
+.all .class2 button {
+    --bg: #05213f;
+    --hover-bg: #42bfa7;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    padding: 0.2em 1.2em;
+    background: var(--bg);
+    transition: 0.2s;
+    font-family: 'Roboto';
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+
+.all .class2 button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.all .class2 button:active {
+    transform: translate(0);
+    box-shadow: none;
+}
+
+
+
+.fonte {
+    font-family: "Roboto", sans-serif; 
+    font-size: 24px;
+}
