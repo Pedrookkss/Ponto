@@ -21,7 +21,7 @@ Para executar a aplicação, siga os seguintes passos:
 2. **Baixe o arquivo**:
    - No Github vá em <>Code e baixe o arquivo .zip
    - Use o winrar ou outro programa de sua preferência para descompactar em uma pasta de nome "ProjetoPokedex"
-   - 
+     
 3. **Inicie o VScode**:
    - Navegue até extensões.
    - Baixe a extensão "Live server".
